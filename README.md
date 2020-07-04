@@ -9,19 +9,27 @@ Open Broker-Sample.sln to build and run
 The output of Debug mode will be in <Solution_Dir>\bin\Debug
 
 
-## Usage
+## Deployment & Usage
 
-### Broker
+### Broker application
+- Broker.exe
+- IService.dll
 ```
 $ Broker.exe
 ```
 
-### Server
+### Server application
+- Server.exe
+- IService.dll
+
 ```
 $ Server.exe [port_number]
 ```
 
-### Client
+### Client application
+- Client.exe
+- IService.dll
+
 ```
 $ Client.exe
 ```
